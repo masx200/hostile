@@ -31,7 +31,7 @@ exports.getFile = function (filePath, preserveFormatting, cb) {
   }
 
   cb = once(cb)
-  fs.createReadStream(filePath, { encoding: 'utf8' })
+  fs.createReadStream(filePath, { encoding: 'utf8' }).on('error', cb)
     .pipe(split())
     .pipe(through(online))
     .on('close', function () {
