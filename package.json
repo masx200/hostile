@@ -1,5 +1,5 @@
 {
-  "name": "hostile",
+  "name": "@masx200/hostile",
   "description": "Simple /etc/hosts manipulation",
   "version": "1.4.1",
   "author": {
