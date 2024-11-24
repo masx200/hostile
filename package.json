@@ -3,13 +3,13 @@
   "description": "Simple /etc/hosts manipulation",
   "version": "1.4.1",
   "author": {
-    "name": "Feross Aboukhadijeh",
-    "email": "feross@feross.org",
-    "url": "https://feross.org"
+    "name": "masx200 Aboukhadijeh",
+    "email": "masx200@masx200.org",
+    "url": "https://masx200.org"
   },
   "bin": "bin/cmd.js",
   "bugs": {
-    "url": "https://github.com/feross/hostile/issues"
+    "url": "https://github.com/masx200/hostile/issues"
   },
   "dependencies": {
     "@ljharb/through": "^2.3.11",
@@ -22,7 +22,7 @@
     "standard": "*",
     "tape": "^5.7.2"
   },
-  "homepage": "https://github.com/feross/hostile",
+  "homepage": "https://github.com/masx200/hostile",
   "keywords": [
     "/etc/hosts",
     "change hosts",
@@ -32,22 +32,22 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "repository": "git://github.com/feross/hostile",
+  "repository": "git://github.com/masx200/hostile",
   "scripts": {
     "test": "standard && tape test/*.js"
   },
   "funding": [
     {
       "type": "github",
-      "url": "https://github.com/sponsors/feross"
+      "url": "https://github.com/sponsors/masx200"
     },
     {
       "type": "patreon",
-      "url": "https://www.patreon.com/feross"
+      "url": "https://www.patreon.com/masx200"
     },
     {
       "type": "consulting",
-      "url": "https://feross.org/support"
+      "url": "https://masx200.org/support"
     }
   ]
 }
